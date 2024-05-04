@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-02-25T20:22:45.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KiQqkG8GW75FdxdMzRTS" version="23.1.6" type="device">
+  <diagram name="Page-1" id="Nocx77a_qcPEsojkKPaO">
+    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-38" value="" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="410" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-7" value="IVehicleFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="335" y="320" width="160" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-8" value="IVehicle GetVehicle()" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Fvgcpqqz9icqB1H3hVt4-7">
+          <mxGeometry y="26" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-13" value="CarFactory&#xa;: IVehicleFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="425" y="400" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-14" value="Car GetVehicle()" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Fvgcpqqz9icqB1H3hVt4-13">
+          <mxGeometry y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-17" value="MotorcycleFactory&#xa;: IVehicleFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="235" y="400" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-18" value="Motorcycle GetVehicle()" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Fvgcpqqz9icqB1H3hVt4-17">
+          <mxGeometry y="40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-23" value="IVehicle" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="165" y="80" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-24" value="Int TopSpeed" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Fvgcpqqz9icqB1H3hVt4-23">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-27" value="Car : IVehicle" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="75" y="160" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-28" value="Int TopSpeed&lt;div&gt;Int NumberOfSeats&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Fvgcpqqz9icqB1H3hVt4-27">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-29" value="Motorcycle : IVehicle" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="265" y="160" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-30" value="Int TopSpeed&lt;div&gt;bool HasKickstart&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="Fvgcpqqz9icqB1H3hVt4-29">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvgcpqqz9icqB1H3hVt4-39" value="Entities" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="215" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
