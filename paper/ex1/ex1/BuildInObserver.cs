@@ -3,7 +3,7 @@
     public class NotificationServer
     {
         public delegate void NotificationHandler(string notificationText);
-        public event NotificationHandler OnNotification;
+        public event NotificationHandler? OnNotification;
 
         public void SendNotification(string notificationText)
         {
